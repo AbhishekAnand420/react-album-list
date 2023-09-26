@@ -1,0 +1,81 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  margin-top: 20px;
+  background-color: black;
+}
+
+h1 {
+  font-size: 24px;
+}
+.album-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.album-form input {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.album-form button{
+  border-radius: 10px;
+
+}
+
+.album-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  margin-left: 8.5%;
+  max-width: 80%;
+  border-radius: 10px;
+  background-color: pink;
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.edit{
+  /* background-color: red; */
+  border-radius: 10px;
+}
+.edit:hover{
+  background-color: rgb(76, 81, 224);
+  color: #f2f2f2;
+}
+
+.del{
+  /* background: #000; */
+  border-radius: 10px;
+}
+
+.del:hover{
+  background-color: red;
+  color: white;
+}
+
+
+.album-actions {
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.album-list {
+  list-style: none;
+  padding: 0;
+  
+}
